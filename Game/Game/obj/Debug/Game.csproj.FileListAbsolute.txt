@@ -1,0 +1,6 @@
+C:\Actum\Game\Game\bin\Debug\Game.exe.config
+C:\Actum\Game\Game\bin\Debug\Game.exe
+C:\Actum\Game\Game\bin\Debug\Game.pdb
+C:\Actum\Game\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Actum\Game\Game\obj\Debug\Game.exe
+C:\Actum\Game\Game\obj\Debug\Game.pdb
