@@ -4,25 +4,18 @@ namespace Game
 {
     public class Pressurer : GameCharacter
     {
-        public override void Move()
-        {
-            base.Move();
-            Console.WriteLine("Pressurer moves and jumps.");
-            // Logic for Pressurer-specific Moving behavior
-
-        }
+        //Pressurer moves same as base game character;
 
         public override void Speak()
         {
-            base.Speak();
-            Console.WriteLine("Pressurer speaks and smiles");
+            Console.WriteLine("Pressurer smiles");
             // Logic for Pressurer-specific Speaking behavior
         }
 
         public override void Fight()
         {
             base.Fight();
-            Console.WriteLine("Pressurer fights with smack");
+            Console.WriteLine("Pressurer fights as base game character and also smack");
             // Logic for Pressurer-specific fighting behavior
         }
 

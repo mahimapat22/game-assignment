@@ -15,7 +15,7 @@ namespace Game
                 Console.WriteLine("Select a character:");
                 Console.WriteLine("1. Pressurer");
                 Console.WriteLine("2. Dominator");
-                Console.WriteLine("3. Exit");
+                Console.WriteLine("4. Exit");
 
                 // Read user input
                 string input = Console.ReadLine();
@@ -30,7 +30,7 @@ namespace Game
                         PlayGame(dominator);
                         break;
 
-                    case "3":
+                    case "4":
                         return;
 
                     default:
@@ -89,4 +89,3 @@ namespace Game
         }
     }
 }
-

@@ -2,23 +2,27 @@
 
 namespace Game
 {
-    public abstract class GameCharacter
+    public class GameCharacter
     {
         public virtual void Move()
         {
-            Console.WriteLine("Character Moves");
+            Console.WriteLine("Default Character Moves");
             // Logic to move
         }
         public virtual void Speak()
         {
-            Console.WriteLine("Character Speaks");
+            Console.WriteLine("Default Character Speaks");
             // Logic to speak
         }
         public virtual void Fight()
         {
-            Console.WriteLine("Character Fights");
+            Console.WriteLine("Default Character Fights");
             // Logic to fight
         }
-        public abstract void GainMomentum();
+        public virtual void GainMomentum()
+        {
+            Console.WriteLine("Default Character GainMomentum");
+            // Logic to GainMomentum
+        }
     }
 }

@@ -7,19 +7,12 @@ namespace Game
     {
         public override void Move()
         {
-            base.Move();
-            Console.WriteLine("Dominator moves and swirls.");
+            Console.WriteLine("Dominator swirls.");
             // Logic for Dominator-specific Moving behavior
 
         }
 
-        public override void Speak()
-        {
-            base.Speak();
-            Console.WriteLine("Dominator speaks and wink.");
-            // Logic for Dominator-specific Speak behavior
-
-        }
+        ///Dominator speaks same as base game character;
 
         public override void Fight()
         {
